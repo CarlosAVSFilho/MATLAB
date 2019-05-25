@@ -1,0 +1,23 @@
+ant:
+<ant>
+  <mkdir dir="E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\Aircraft_Designer\for_redistribution" />
+  <mkdir dir="E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\Aircraft_Designer\for_testing" />
+  <mkdir dir="E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\Aircraft_Designer\for_redistribution_files_only" />
+</ant>
+mcc -C -o Aircraft_Designer -W WinMain:Aircraft_Designer -T link:exe -d 'E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\Aircraft_Designer\for_testing' -R '-logfile,log_Aircraft_Designer' -v 'E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\project_tcc.m' -a 'E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\PlotAsa.m' -a 'E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\PlotFuselagem.m' -a 'E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\PlotLeme.m' -a 'E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\PlotProf.m' -a 'E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\project_tcc.fig' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "E:\Engenharia Aeronáutica\14 - TCC
+(2018.1)\Programa\Source Code" to Compiler path instance.] 
+Parsing file "E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\project_tcc.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\Aircraft_Designer\for_testing\readme.txt".
+Packaging...
+Adding custom icon E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\Aircraft_Designer_resources\icon.ico to E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\Aircraft_Designer\for_testing\Aircraft_Designer.exe.
+Attempting to embed the CTF archive into the application E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\Aircraft_Designer\for_testing\Aircraft_Designer.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at E:\Engenharia Aeronáutica\14 - TCC (2018.1)\Programa\Source Code\Aircraft_Designer\for_redistribution\Aircraft_Designer_MCRfromWeb.exe.
+Packaging complete.
+Elapsed packaging time was: 5 minutes and 17 seconds.
